@@ -1,0 +1,117 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Bodoni+Moda&Family=Raleway&Display=Swap");
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Libre+Baskerville&Family=Poppins&Display=Swap");
+body{
+  background: radial-gradient(black,#00203a,black);
+  Width: 100%;
+  min-height: 100vh;
+  background-size: 100%;
+}
+H3 {
+  Font-Size: 4rem;
+  Font-Family: "Poppins", Sans-Serif;
+  Font-Weight: 800;
+  Background: -Webkit-radial-Gradient(#398fff, #3836be,#398fff,#3836be);
+  -Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+  Text-Align: Center;
+}
+H3:hover {
+  Box-Shadow: 6px 6px 20px Rgba(0, 0, 0, 0.6);
+  Transform: Scale(1.08);
+}
+
+A {
+  Text-Decoration: None;
+  Margin-Left: 1.5em;
+  Margin-Right: 1.5em;
+  Font-Size: 1em;
+  Color: #Fff;
+}
+div .link {
+  display: flex;
+  justify-content: center;
+  Padding: 2rem;
+  Border-Radius: 2px;
+  color: #398fff;
+}
+Img {
+  Display: Block;
+  Width: 100%;
+}
+
+.Projects-Section {
+  Text-Align: Center;
+  Padding: 10rem 2rem;
+  Background: #Eceff1;
+}
+.Projects-Section-Header {
+  Max-Width: 640px;
+  Margin: 2rem Auto 2rem Auto;
+  Border-Bottom: 0 Solid White;
+  Padding-Top: 1rem;
+  Padding-Bottom: 1rem;
+  Border-Radius: 38px;
+  Word-Spacing: 4px;
+  Letter-Spacing: 3px;
+  /* Box-Shadow: 0 5px 20px #Ddd; */
+}
+@Media (Max-Width: 28.75em) {
+  .Projects-Section-Header {
+    Font-Size: 4rem;
+  }
+}
+
+.Projects-Grid {
+  Display: Grid;
+  Grid-Template-Columns: Repeat(Auto-Fit, Minmax(320px, 1fr));
+  Grid-Gap: 4rem;
+  Width: 100%;
+  Max-Width: 1280px;
+  Margin: 0 Auto;
+  Margin-Bottom: 6rem;
+}
+@Media (Max-Width: 30.625em) {
+  .Projects-Section {
+    Padding: 6rem 1rem;
+  }
+
+  .Projects-Grid {
+    Grid-Template-Columns: 24fr;
+  }
+}
+.Project {
+  Background: #ffffff;
+  Box-Shadow: 1px 1px 2px Rgba(0, 0, 0, 0.5);
+  Border-Radius: 28px;
+  Box-Shadow: 0 2.8px 2.2px Rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px Rgba(0, 0, 0, 0.048), 0 12.5px 10px Rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px Rgba(0, 0, 0, 0.072), 0 41.8px 33.4px Rgba(0, 0, 0, 0.086),
+    0 100px 80px Rgba(0, 0, 0, 0.12);
+  Transition: All 2s, Transform 0.5s, Box_shadow 0.5s;
+}
+.Project:hover {
+  Box-Shadow: 6px 6px 20px Rgba(0, 0, 0, 0.6);
+  Transform: Scale(1.08);
+}
+
+.Project-Image {
+  Height: 100px;
+  Width: 100px;
+  Object-Fit: Cover;
+  Border-Top-Right-Radius: 28px;
+  Border-Top-Left-Radius: 28px;
+}
+.Project-Title {
+  Font-Family: "Poppins", Sans-Serif;
+  Font-Size: 2rem;
+  Text-Align: Center;
+  Padding: 2rem 0.5rem;
+  Color: #Fff;
+  Text-Transform: Uppercase;
+}
+.Btn {
+  Display: Inline-Block;
+  Padding: 1rem 2rem;
+  Border-Radius: 2px;
+}
+
